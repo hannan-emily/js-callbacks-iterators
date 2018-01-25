@@ -6,3 +6,8 @@ var numbers = [1, 56, 2, 4, 1, 99, 3, 5];
 // via multiplication
 
 
+var numbersSum = numbers.reduce (function(acc, curVal) {
+  return acc * curVal;
+});
+
+console.log(numbersSum);
